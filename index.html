@@ -11,6 +11,13 @@
     @theme {
       --color--regal-blue: #da373d;
     }
+
+    .highlighted-text {
+    background: linear-gradient(to top, #FFC9F0 40%, transparent 50%);
+    display: inline;
+    padding: 2px;
+}
+
   </style>
     <title>ZNISA</title>
 </head>
@@ -32,7 +39,7 @@
         </div>
     
       </div>
-      <div class="navbar-end hidden lg:flex">
+      <div class="navbar-end hidden lg:flex gap-x-20">
         <img 
         alt="Tailwind CSS Navbar component"
         src="/images/Frame 1.png" />
@@ -56,9 +63,10 @@
             src="./images/Frame 23.png"
             class="max-w-sm rounded-lg " 
           />
-          <h2 class="text-5xl font-bold  mt-10">
-            I design top <br> notch websites
+          <h2 class="text-5xl font-bold mt-10">
+            I <span class="highlighted-text">design</span> top <br> notch websites
           </h2>
+          
         </div>
     
         <div>
